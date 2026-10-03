@@ -204,4 +204,225 @@ window.QUIZ_QUESTIONS = [
       { text: "A peaceful, happy life", image: "assets/heart.svg" }
     ]
   }
+    {
+    
+    question: "What do you find the cutest about me?",
+    options: [
+      { id: "A", text: "My smile 😊" },
+      { id: "B", text: "My voice 🥰" },
+      { id: "C", text: "My angry face 😤❤️" },
+      { id: "D", text: "The way I care for you 💕" },
+    ],
+    image: new URL('./assets/question_1.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If we could go on a trip together, where would you choose?",
+    options: [
+      { id: "A", text: "Mountains 🏔️" },
+      { id: "B", text: "Beach 🏖️" },
+      { id: "C", text: "Paris 🇫🇷" },
+      { id: "D", text: "Anywhere, as long as I'm with you ❤️" },
+    ],
+    image: new URL('./assets/question_2.svg', import.meta.url).href
+  },
+  {
+    
+    question: "What nickname would you love to call me?",
+    options: [
+      { id: "A", text: "Baby 🥺" },
+      { id: "B", text: "Jaan ❤️" },
+      { id: "C", text: "Cutie 😘" },
+      { id: "D", text: "Wifey 😍" },
+    ],
+    image: new URL('./assets/question_3.svg', import.meta.url).href
+  },
+  {
+    
+    question: "What's your favorite memory of us?",
+    options: [
+      { id: "A", text: "The first time you saw me 👀" },
+      { id: "B", text: "Our first conversation 💬" },
+      { id: "C", text: "Our first smile at each other 😊" },
+      { id: "D", text: "Everything about us ❤️" },
+    ],
+    image: new URL('./assets/question_4.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If I get upset with you, what would you do?",
+    options: [
+      { id: "A", text: "Say sorry 🥺" },
+      { id: "B", text: "Try to make me smile ❤️" },
+      { id: "C", text: "Give me a hug 🤗" },
+      { id: "D", text: "Do all three 😘" },
+    ],
+    image: new URL('./assets/question_5.svg', import.meta.url).href
+  },
+  {
+    
+    question: "Which quality of mine do you love the most?",
+    options: [
+      { id: "A", text: "My caring nature 🫶" },
+      { id: "B", text: "My understanding ❤️" },
+      { id: "C", text: "My funny side 😂" },
+      { id: "D", text: "My loyalty 💕" },
+    ],
+    image: new URL('./assets/question_6.svg', import.meta.url).href
+  },
+  {
+    
+    question: "What would your perfect date with me be?",
+    options: [
+      { id: "A", text: "Candlelight dinner 🕯️" },
+      { id: "B", text: "A long drive 🚗" },
+      { id: "C", text: "Movie + cuddles 🎬🥰" },
+      { id: "D", text: "Quality time at home ❤️" },
+    ],
+    image: new URL('./assets/question_7.svg', import.meta.url).href
+  },
+  {
+    
+    question: "How would you feel if we didn't talk for a whole day?",
+    options: [
+      { id: "A", text: "Bored 😩" },
+      { id: "B", text: "Lonely 🥺" },
+      { id: "C", text: "I would miss you so much ❤️" },
+      { id: "D", text: "I wouldn't be able to handle it 😭" },
+    ],
+    image: new URL('./assets/question_8.svg', import.meta.url).href
+  },
+  {
+    
+    question: "Which of my habits do you secretly love?",
+    options: [
+      { id: "A", text: "Calling you again and again 📱" },
+      { id: "B", text: "Taking care of you 🥰" },
+      { id: "C", text: "Getting a little jealous 😏" },
+      { id: "D", text: "Teasing you 😂" },
+    ],
+    image: new URL('./assets/question_9.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If I suddenly said “I love you,” what would you do?",
+    options: [
+      { id: "A", text: "Say “I love you too” ❤️" },
+      { id: "B", text: "Give me a hug 🤗" },
+      { id: "C", text: "Kiss me 😘" },
+      { id: "D", text: "Blush first, then do everything 😳❤️" },
+    ],
+    image: new URL('./assets/question_10.svg', import.meta.url).href
+  },
+  {
+    
+    question: "Who do you think is more romantic in our relationship?",
+    options: [
+      { id: "A", text: "You 😍" },
+      { id: "B", text: "Me 🥰" },
+      { id: "C", text: "Both of us ❤️" },
+      { id: "D", text: "It depends on the situation 😂" },
+    ],
+    image: new URL('./assets/question_11.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If you could give me one gift, what would you choose?",
+    options: [
+      { id: "A", text: "Flowers 🌹" },
+      { id: "B", text: "Jewellery 💍" },
+      { id: "C", text: "A teddy bear 🧸" },
+      { id: "D", text: "Your time and attention ❤️" },
+    ],
+    image: new URL('./assets/question_12.svg', import.meta.url).href
+  },
+  {
+    
+    question: "Which expression of mine do you love the most?",
+    options: [
+      { id: "A", text: "My smile 😊" },
+      { id: "B", text: "My shy face 😳" },
+      { id: "C", text: "My angry face 😤" },
+      { id: "D", text: "My jealous face 😏" },
+    ],
+    image: new URL('./assets/question_13.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If we were a movie couple, what kind would we be?",
+    options: [
+      { id: "A", text: "The cute couple 🥰" },
+      { id: "B", text: "The crazy couple 😂" },
+      { id: "C", text: "The romantic couple ❤️" },
+      { id: "D", text: "The “made for each other” couple 😍" },
+    ],
+    image: new URL('./assets/question_14.svg', import.meta.url).href
+  },
+  {
+    
+    question: "When do you miss me the most?",
+    options: [
+      { id: "A", text: "At night 🌙" },
+      { id: "B", text: "When we don't talk 📱" },
+      { id: "C", text: "When I'm upset with you 🥺" },
+      { id: "D", text: "All the time ❤️" },
+    ],
+    image: new URL('./assets/question_15.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If you had to make one promise to me, what would it be?",
+    options: [
+      { id: "A", text: "I'll always be honest with you 🤞" },
+      { id: "B", text: "I'll always respect you ❤️" },
+      { id: "C", text: "I'll always stand by you 🫶" },
+      { id: "D", text: "All three 💍" },
+    ],
+    image: new URL('./assets/question_16.svg', import.meta.url).href
+  },
+  {
+    
+    question: "What do you enjoy doing with me the most?",
+    options: [
+      { id: "A", text: "Talking for hours 💬" },
+      { id: "B", text: "Going out together 🚶‍♀️🚶‍♂️" },
+      { id: "C", text: "Cuddling 🥰" },
+      { id: "D", text: "Just being together ❤️" },
+    ],
+    image: new URL('./assets/question_17.svg', import.meta.url).href
+  },
+  {
+    
+    question: "If I told you, “I need you,” what would you do?",
+    options: [
+      { id: "A", text: "Call me immediately 📞" },
+      { id: "B", text: "Come to see me 🥺" },
+      { id: "C", text: "Give me a big hug 🤗" },
+      { id: "D", text: "Tell me, “I'm always here for you” ❤️" },
+    ],
+    image: new URL('./assets/question_18.svg', import.meta.url).href
+  },
+  {
+    question: "Describe our relationship in one word.",
+    options: [
+      { id: "A", text: "Love ❤️" },
+      { id: "B", text: "Peace 🫶" },
+      { id: "C", text: "Crazy 😂" },
+      { id: "D", text: "Forever ♾️" },
+    ],
+    image: new URL('./assets/question_19.svg', import.meta.url).href
+  },
+  {
+    
+    question: "And the most important one… How much do you love me? 😏❤️",
+    options: [
+      { id: "A", text: "More than you can imagine 🥰" },
+      { id: "B", text: "More than words can express ❤️" },
+      { id: "C", text: "More than anything in this world 😘" },
+      { id: "D", text: "Forever and beyond ♾️❤️" },
+    ],
+    image: new URL('./assets/question_20.svg', import.meta.url).href
+  },
+];
+    
 ];
