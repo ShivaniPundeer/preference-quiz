@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5f8f">
+  <title>Little Things About You 💗</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="bg-hearts" aria-hidden="true"></div>
+  <main class="shell">
+    <section id="welcome" class="screen card">
+      <div class="sparkle">✦</div>
+      <p class="eyebrow">A tiny little quiz ✨</p>
+      <h1>Tell Me About <span>You</span> 💗</h1>
+      <p class="lead">No right or wrong answers. I just want to know the little things you like, love and enjoy.</p>
+      <div class="name-box">
+        <label for="name">Your name</label>
+        <input id="name" type="text" maxlength="60" autocomplete="name" placeholder="Enter your name">
+        <p id="nameError" class="error"></p>
+      </div>
+      <button id="startBtn" class="primary-btn">Let's Begin <span>→</span></button>
+      <p class="privacy-note">🔒 Your answers are saved privately and aren't shown to other participants.</p>
+    </section>
+
+    <section id="quiz" class="screen card hidden">
+      <div class="quiz-top">
+        <div>
+          <p class="eyebrow">Getting to know you</p>
+          <p id="questionCount" class="count">Question 1 of 20</p>
+        </div>
+        <div id="progressText" class="progress-text">5%</div>
+      </div>
+      <div class="progress"><div id="progressBar"></div></div>
+      <div class="question-wrap">
+        <p id="questionCategory" class="category"></p>
+        <h2 id="questionText"></h2>
+        <div id="options" class="options"></div>
+      </div>
+      <div class="nav-row">
+        <button id="backBtn" class="ghost-btn" disabled>← Back</button>
+        <button id="nextBtn" class="primary-btn" disabled>Next →</button>
+      </div>
+    </section>
+
+    <section id="submitting" class="screen card hidden center">
+      <div class="loader-heart">♥</div>
+      <h2>Saving your answers…</h2>
+      <p>Please wait a moment.</p>
+    </section>
+
+    <section id="done" class="screen card hidden center">
+      <div class="success-icon">✓</div>
+      <p class="eyebrow">All done 💌</p>
+      <h1>Thank you, <span id="doneName"></span>!</h1>
+      <p class="lead">Your answers have been saved. Someone is going to learn a little more about you today. ❤️</p>
+      <div class="quote">“It’s the little things that make someone special.”</div>
+      <button id="againBtn" class="ghost-btn">Close</button>
+    </section>
+  </main>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
