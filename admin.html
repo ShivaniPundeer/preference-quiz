@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff5f8f">
+  <title>Private Admin • Responses</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+  <div class="bg-hearts" aria-hidden="true"></div>
+  <main class="admin-shell">
+    <section id="adminLogin" class="screen card admin-login">
+      <div class="lock">🔐</div>
+      <p class="eyebrow">Private area</p>
+      <h1>Admin <span>Dashboard</span></h1>
+      <p class="lead">Only the account you create in Supabase can access the responses.</p>
+      <form id="loginForm">
+        <label for="email">Admin email</label>
+        <input id="email" type="email" autocomplete="username" required placeholder="you@example.com">
+        <label for="password">Password</label>
+        <input id="password" type="password" autocomplete="current-password" required placeholder="••••••••">
+        <p id="loginError" class="error"></p>
+        <button class="primary-btn" type="submit">Unlock dashboard 🔓</button>
+      </form>
+    </section>
+
+    <section id="dashboard" class="hidden">
+      <header class="dashboard-head">
+        <div>
+          <p class="eyebrow">Private responses</p>
+          <h1>Everyone’s <span>Answers</span> 💗</h1>
+        </div>
+        <button id="logoutBtn" class="ghost-btn">Log out</button>
+      </header>
+
+      <div class="stats">
+        <div class="stat card"><span>Total responses</span><strong id="totalCount">0</strong></div>
+        <div class="stat card"><span>Latest response</span><strong id="latestDate">—</strong></div>
+      </div>
+
+      <div class="card responses-card">
+        <div class="toolbar">
+          <input id="search" type="search" placeholder="Search by name…">
+          <button id="refreshBtn" class="ghost-btn">↻ Refresh</button>
+        </div>
+        <div id="emptyState" class="empty hidden">No responses yet.</div>
+        <div id="responseList" class="response-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop"></div>
+    <article class="modal-card">
+      <button id="closeModal" class="close">×</button>
+      <p class="eyebrow">Private response</p>
+      <h2 id="modalName"></h2>
+      <p id="modalDate" class="muted"></p>
+      <div id="answerDetails" class="answer-details"></div>
+    </article>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
